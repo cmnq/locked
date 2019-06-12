@@ -1,0 +1,77 @@
+.heading-primary--sub {
+    color:$color-white;
+    margin-bottom: .3rem;
+    margin-top: .3rem;
+    text-transform: uppercase;
+    font-family: $secondary-font;
+    font-weight: 600;
+    @include responsive(phone) {
+        font-size: 2.5rem;
+    }
+
+    @include responsive(small-phone) {
+        font-size: 2rem;
+    }
+}
+
+.heading-primary--main {
+    color:$color-white;
+    margin: 0;
+    font-size: 13rem;
+    padding: 1rem;
+    outline: .3rem solid $color-primary;
+    font-family: $logo-font;
+
+    @include responsive(phone) {
+        font-size: 20rem;
+    }
+    @include responsive(small-phone) {
+        font-size: 15rem;
+    }
+}
+
+.text-red {
+    color: $color-primary;
+    border-bottom: solid .1rem $color-primary;
+}
+.text-green {
+    color:$color-secondary-light;
+}
+
+.heading-primary {
+    display: inline-block;
+    font-size: 6rem;
+    margin-top: 6rem;
+    font-family: $logo-font;
+
+    
+    @include responsive(phone) {
+        font-size: 8rem;
+    }
+
+
+
+    &:hover {
+        color: $color-primary;
+        transition: all 1s;
+    }
+}
+
+.heading-secondary {
+    font-family: $main-font;
+    font-size: 1.5rem;
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-weight: 100;
+    @include responsive(phone) {
+        font-size: 2.5rem;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+.heading-tertiary {
+    font-size: 1.5rem;
+    color: $color-black;
+}

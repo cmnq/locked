@@ -1,0 +1,48 @@
+@mixin responsive($breakpoint) {
+    @if $breakpoint==small-phone {
+        @media(max-width: 25em) {
+            @content
+        }
+
+        ; // 900px/16 = 56,25em
+    };
+    // @if $breakpoint==phone {
+    //     @media (max-width: 37.5em) {
+    //         @content
+    //     }
+
+    //     ; // 600px/16 = 37,5 em
+    // }
+
+    // ;
+
+    @if $breakpoint==phone {
+        @media(max-width: 56.25em) {
+            @content
+        }
+
+        ; // 900px/16 = 56,25em
+    }
+
+    ;
+
+    @if $breakpoint==tab-landscape {
+        @media(max-width:75em) {
+            @content
+        }
+
+        ; // 1200px/16 = 75 em;
+    }
+
+    ;
+
+    @if $breakpoint==large-desktop {
+        @media(min-width:112.5em) {
+            @content
+        }
+
+        ; // 1800/16 = 112,5em;
+    }
+
+
+}

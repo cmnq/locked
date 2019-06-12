@@ -1,0 +1,75 @@
+.header {
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    background-image: url(/img/landing_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    
+
+    &__text-box {
+        display: flex;
+        height: inherit;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.navigation {
+
+
+    &__nav{
+        display: flex;
+        margin-top: 1rem;
+        @include responsive(small-phone) {
+            justify-content: center;
+        }
+        
+    }
+
+    &__logo {
+        font-size: 2rem;
+        font-family: $logo-font;
+        color: $color-white;
+        margin-right: auto;
+        margin-left: 2rem;
+        @include responsive(small-phone) {
+            display: none;
+        }
+    }
+
+    &__list {
+        list-style: none;
+        display: flex;
+
+    }
+
+    &__item {
+        font-size: 2rem;
+        font-family: $main-font;
+        font-weight: 100;
+        text-transform: uppercase;
+        margin-right: 6rem;
+        @include responsive(small-phone) {
+            margin-right: 3rem;
+            margin-left: 3rem;
+        }
+
+
+        
+    }
+
+    &__link {
+        text-decoration: none;
+        color: $color-white;
+        &:hover {
+            color: $color-primary;
+            transition: all 1s;
+            font-size: 2.1rem;
+        }
+    }
+}

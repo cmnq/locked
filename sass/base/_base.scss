@@ -1,0 +1,30 @@
+    
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+};
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%; // 62,5% of 1rem = 10px
+    font-family: $main-font; 
+    @include responsive(phone) {
+        //width <700
+        font-size: 40.25%;
+        overflow-x: hidden; // 1 rem = 9px 9/16 = 56,25%
+    }
+};
+
+
+body {
+    box-sizing: border-box;
+    background-color: $color-white;
+
+}
+
+main {
+    background-color: $color-white;
+}

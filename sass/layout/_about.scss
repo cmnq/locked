@@ -1,0 +1,63 @@
+.about {
+    background-color: $color-white;
+    color: $color-black;
+    text-align: center;
+
+
+    &__container{
+    flex-direction: row;    
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+    &__box {
+
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        justify-content: baseline;
+        align-items: center;
+        text-align: center;
+        margin-top: 4rem;
+        font-family: $main-font;
+        padding: 2rem;
+        @include responsive(phone) {
+            width:80%;
+        }
+
+        &-icon {
+            width:50%;
+            height: 30%;
+
+            @include responsive(phone) {
+                width: 100%;
+                height: 50%;
+            }
+           &:hover {
+            fill: $color-primary;
+            transition: all 1s;
+           }
+
+        }
+
+        &-title {
+            font-size: 2rem;
+            color: $color-primary;
+            position: relative;
+            @include responsive(phone) {
+                font-size: 4rem;
+            }
+        }
+
+        &-description {
+            font-size: 1.5rem; 
+            padding: 2rem; 
+            @include responsive(phone) {
+                font-size: 2rem;
+            }
+        }
+    }
+
+    
+}

@@ -1,0 +1,113 @@
+
+.rooms {
+    &__parallax-background {
+        width: 100%;
+        height: 60vh;
+        background-image: url(../../img/ghost_bg.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: 50% -50%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        @include responsive(phone) {
+            height: 100vh;
+        }
+    
+        &:nth-of-type(3){
+            background-image: url(../../img/hacker_bg.jpg)
+        }
+        &:nth-of-type(5){
+            background-image: url(../../img/pirates_bg.jpg)
+        }
+        &:nth-of-type(7){
+            background-image: url(../../img/willyoumarryme_bg.jpg)
+        }
+    }
+
+    &__parallax-logo {
+        width: 50%;
+        height:100%;
+        @include responsive(phone) {
+            width: 100%;
+            height: 70%
+        }
+
+        @include responsive(small-phone) {
+            height:  50%;
+        }
+    }
+
+    &__wrapper {
+        width: 100%;
+        background-color: $color-white;
+        margin-top: 5rem;
+        margin-bottom: 15rem;
+    }
+    
+    &__text-box {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    &__maintitle{
+        font-size: 2.5rem;
+        @include responsive(phone) {
+            font-size: 4rem;
+        }
+        
+    }
+
+    &__subtitle {
+        font-size: 1.5rem;
+        @include responsive(phone) {
+            font-size: 2rem;
+        }
+    }
+
+    &__desc-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__iconbox {
+        margin: .2rem;
+    }
+
+    &__icon {
+        width: 2rem;
+        height: 2rem;
+        @include responsive(phone) {
+            width: 4rem;
+            height: 4rem;
+        }
+    }
+    &__desc {
+        color: $color-black;
+        font-size: 1.7rem;
+        font-weight: 100;
+        padding: 3rem;
+        text-align: center;
+        @include responsive(phone) {
+            font-size: 2.5rem;
+            padding: 2.2rem;
+        }
+    }
+
+    &__time {
+        font-size: 1.3rem;
+        @include responsive(phone) {
+            font-size: 2rem;
+        }
+    }
+}
+
+
+
+
+
+
+
