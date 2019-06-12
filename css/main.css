@@ -96,7 +96,7 @@ main {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background-image: url(/img/landing_bg.jpg);
+  background-image: url(../img/landing_bg.jpg);
   background-size: cover;
   background-position: center; }
   .header__text-box {
@@ -407,7 +407,7 @@ h6 {
 .parallax-separator {
   width: 100%;
   height: 40vh;
-  background-image: url(../../img/parallax-separator.jpg);
+  background-image: url(../img/parallax-separator.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: 50% -50%; }
