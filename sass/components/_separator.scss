@@ -9,8 +9,8 @@
     @include responsive(phone) {
         //width <700
         height: 100vh;
-        background-attachment: unset;
-        background-position: 0%;
+        background-attachment: scroll;
+        background-position: center;
 };
     }
 
