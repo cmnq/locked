@@ -329,7 +329,7 @@ main {
       font-size: 2rem; } }
 
 .contact {
-  background: url(/img/architecture-bricks-brickwall-2273486.jpg);
+  background: url(../img/architecture-bricks-brickwall-2273486.jpg);
   background-size: cover;
   padding: 4rem 0; }
   .contact__heading {
