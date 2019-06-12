@@ -251,7 +251,10 @@ main {
   display: flex; }
   @media (max-width: 56.25em) {
     .rooms__parallax-background {
-      height: 100vh; } }
+      height: 100vh;
+      background-size: cover;
+      background-attachment: scroll;
+      background-position: center; } }
   .rooms__parallax-background:nth-of-type(3) {
     background-image: url(../img/hacker_bg.jpg); }
   .rooms__parallax-background:nth-of-type(5) {

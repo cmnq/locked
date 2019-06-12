@@ -11,7 +11,12 @@
         align-items: center;
         display: flex;
         @include responsive(phone) {
-            height: 100vh;
+            
+                height: 100vh;
+                background-size: cover;
+                background-attachment: scroll;
+                background-position: center;
+            
         }
     
         &:nth-of-type(3){
