@@ -3,7 +3,7 @@
     &__parallax-background {
         width: 100%;
         height: 60vh;
-        background-image: url(../../img/ghost_bg.jpg);
+        background-image: url(../img/ghost_bg.jpg);
         background-attachment: fixed;
         background-size: cover;
         background-position: 50% -50%;
@@ -15,13 +15,13 @@
         }
     
         &:nth-of-type(3){
-            background-image: url(../../img/hacker_bg.jpg)
+            background-image: url(../img/hacker_bg.jpg)
         }
         &:nth-of-type(5){
-            background-image: url(../../img/pirates_bg.jpg)
+            background-image: url(../img/pirates_bg.jpg)
         }
         &:nth-of-type(7){
-            background-image: url(../../img/willyoumarryme_bg.jpg)
+            background-image: url(../img/willyoumarryme_bg.jpg)
         }
     }
 

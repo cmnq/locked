@@ -243,7 +243,7 @@ main {
 .rooms__parallax-background {
   width: 100%;
   height: 60vh;
-  background-image: url(../../img/ghost_bg.jpg);
+  background-image: url(../img/ghost_bg.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: 50% -50%;
@@ -254,11 +254,11 @@ main {
     .rooms__parallax-background {
       height: 100vh; } }
   .rooms__parallax-background:nth-of-type(3) {
-    background-image: url(../../img/hacker_bg.jpg); }
+    background-image: url(../img/hacker_bg.jpg); }
   .rooms__parallax-background:nth-of-type(5) {
-    background-image: url(../../img/pirates_bg.jpg); }
+    background-image: url(../img/pirates_bg.jpg); }
   .rooms__parallax-background:nth-of-type(7) {
-    background-image: url(../../img/willyoumarryme_bg.jpg); }
+    background-image: url(../img/willyoumarryme_bg.jpg); }
 
 .rooms__parallax-logo {
   width: 50%;
