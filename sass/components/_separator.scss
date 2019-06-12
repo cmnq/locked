@@ -9,6 +9,8 @@
     @include responsive(phone) {
         //width <700
         height: 100vh;
+        background-image: url(../img/parallax-separator.jpg);
+        background-size: auto;
         background-attachment: scroll;
         background-position: center;
 };

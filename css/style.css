@@ -413,5 +413,7 @@ h6 {
   @media (max-width: 56.25em) {
     .parallax-separator {
       height: 100vh;
+      background-image: url(../img/parallax-separator.jpg);
+      background-size: auto;
       background-attachment: scroll;
       background-position: center; } }
